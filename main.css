@@ -48,6 +48,10 @@ h1 {
     text-justify: center;
     text-transform: uppercase;
 }
+h2{
+    text-transform: uppercase;
+    
+}
 .main{
     background: rgb(14, 13, 13, 0.8);
     flex-direction: column;
@@ -60,8 +64,8 @@ h1 {
     margin-left: 3em;
     color: #FFFFFF;
     display: grid;	
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 270px 270px 270px
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .1fr .1fr .1fr;
 
 }
 .footer{
