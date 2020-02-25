@@ -10,9 +10,16 @@ body{
     background: black;
  
 }
+
 .banner{
     margin-top: 2em;
     flex-shrink: inherit;
+}
+.ban2{
+    display:none;
+}
+.ban3{
+    display: none;
 }
 .nav{
     color: white;
@@ -66,7 +73,7 @@ h2{
     text-justify: center;
 }
 .ninebynine{
-    margin-left: 3em;
+    margin-left: 2em;
     color: #FFFFFF;
     display: grid;	
     grid-template-columns: 1fr 1fr 1fr;
