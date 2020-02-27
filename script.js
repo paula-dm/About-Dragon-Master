@@ -1,4 +1,5 @@
 
+
 const heroSection = document.getElementById("banner");
 const heroTitle = document.querySelector(".hero__title");
 
@@ -17,7 +18,11 @@ let autoImageChanging;
 
 const startAutoImageChanging = function () {
     clearInterval(autoImageChanging);
-    autoImageChanging = setInterval(changeHeroImage, 3000);
+
+
+
+    autoImageChanging = setInterval(changeHeroImage, 2000);
+
 };
 
 const stopAutoImageChanging = function () {
@@ -27,6 +32,7 @@ const stopAutoImageChanging = function () {
 
 heroSection.addEventListener('mouseenter', stopAutoImageChanging);
 heroSection.addEventListener('mouseleave', startAutoImageChanging);
+
 
 
 startAutoImageChanging();

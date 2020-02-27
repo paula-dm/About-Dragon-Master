@@ -24,6 +24,7 @@ body{
     padding: 20px 0;
     flex-shrink: inherit;
 }
+
 .banner--image1{
 background-image: url("https://4.bp.blogspot.com/-hQVNCXiwFuA/XJ0cQki-wcI/AAAAAAAAJfw/DFt8bHSm8Vs_iAvNwK-f4tg8fiWeGoPCQCKgBGAs/s1600/IMG_20190320_151927.jpg");
 transition: background-image 1s ease-in-out;
@@ -50,6 +51,7 @@ transition: background-image 1s ease-in-out;
 }
 .hero__arrow:focus {
     outline: none;
+
 }
 .nav{
     color: white;
