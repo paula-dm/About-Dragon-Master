@@ -1,25 +1,28 @@
-let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slideshow-container");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  
-  slides[slideIndex-1].style.display = "block";  
-  
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+
+const heroSection = document.getElementById("banner");
+const heroTitle = document.querySelector(".hero__title");
+
+let imageCounter = 1;
+const changeHeroImage = function () {
+    imageCounter < 3 ? imageCounter++ : imageCounter = 1;
+    heroSection.classList = `banner banner--image${imageCounter}`;
+};
+
+const changeHeroImageToPrevious = function () {
+    imageCounter === 1 ? imageCounter = 3 : imageCounter--;
+    heroSection.classList = `banner banner--image${imageCounter}`;
+};
 
 let autoImageChanging;
 
 const startAutoImageChanging = function () {
     clearInterval(autoImageChanging);
+
+
+
     autoImageChanging = setInterval(changeHeroImage, 2000);
+
 };
 
 const stopAutoImageChanging = function () {
@@ -29,5 +32,7 @@ const stopAutoImageChanging = function () {
 
 heroSection.addEventListener('mouseenter', stopAutoImageChanging);
 heroSection.addEventListener('mouseleave', startAutoImageChanging);
+
+
 
 startAutoImageChanging();
