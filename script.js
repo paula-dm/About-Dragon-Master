@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1779fcd0e1d3c0657409413bf3c6e09def445903
 const heroSection = document.getElementById("banner");
 const heroTitle = document.querySelector(".hero__title");
 
@@ -17,7 +21,15 @@ let autoImageChanging;
 
 const startAutoImageChanging = function () {
     clearInterval(autoImageChanging);
+<<<<<<< HEAD
     autoImageChanging = setInterval(changeHeroImage, 3000);
+=======
+
+
+
+    autoImageChanging = setInterval(changeHeroImage, 2000);
+
+>>>>>>> 1779fcd0e1d3c0657409413bf3c6e09def445903
 };
 
 const stopAutoImageChanging = function () {
@@ -29,4 +41,9 @@ heroSection.addEventListener('mouseenter', stopAutoImageChanging);
 heroSection.addEventListener('mouseleave', startAutoImageChanging);
 
 
+<<<<<<< HEAD
 startAutoImageChanging();
+=======
+
+startAutoImageChanging();
+>>>>>>> 1779fcd0e1d3c0657409413bf3c6e09def445903
