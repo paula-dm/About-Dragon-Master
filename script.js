@@ -1,4 +1,5 @@
-
+const leftArrow = document.getElementById("leftArrow");
+const rightArrow = document.getElementById("rightArrow");
 const heroSection = document.getElementById("banner");
 // const heroTitle = document.querySelector(".hero__title");
 
@@ -17,7 +18,7 @@ let autoImageChanging;
 
 const startAutoImageChanging = function () {
     clearInterval(autoImageChanging);
-    autoImageChanging = setInterval(changeHeroImage, 2000);
+    autoImageChanging = setInterval(changeHeroImage, 3000);
 };
 
 const stopAutoImageChanging = function () {
@@ -27,6 +28,8 @@ const stopAutoImageChanging = function () {
 
 heroSection.addEventListener('mouseenter', stopAutoImageChanging);
 heroSection.addEventListener('mouseleave', startAutoImageChanging);
+leftArrow.addEventListener('click', changeHeroImageToPrevious);
+rightArrow.addEventListener('click', changeHeroImage);
 
 
 startAutoImageChanging();

@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    max-width: 1200px;
     font-family: sans-serif;  
     scroll-behavior: smooth;
 }
@@ -10,11 +9,26 @@ body{
     background: black;
  
 }
-
+#rightArrow{
+    position:relative;
+    cursor: pointer;
+    top:45%;
+    margin-right: 0px;
+    color: white;
+    }
+ #leftArrow{
+    position:relative;
+        cursor: pointer;
+        top:45%;
+        margin-left: 0px;
+        color: white;
+        }
+   
 .banner{
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    display: flex;
     width: 100%;
     max-width: 2000px;   
     margin-top: 2em;
@@ -103,13 +117,13 @@ h2{
     text-justify: center;
 }
 .ninebynine{
-    margin-left: 2em;
+    margin-left: 3em;
     color: #FFFFFF;
     display: grid;	
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .1fr .1fr .1fr;
     flex-shrink: 1 1 1;
-    margin-left: .7em;
+   
     }
     .img{
         height: auto;
@@ -120,6 +134,21 @@ h2{
 }
 .nav:hover{
     background: rgba(126, 117, 117, 0.7);
+}
+@media screen and (min-width: 1200px){
+    .ninebynine{
+        margin-left: 6.7em;
+    color: #FFFFFF;
+    display: grid;	
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .1fr .1fr .1fr;
+    flex-shrink: 1 1 1;
+        }
+        .img{
+            height: auto;
+            max-width: 500px;
+        }
+
 }
 @media screen and (max-width: 800px){
     .ninebynine{
