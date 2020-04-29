@@ -75,6 +75,11 @@ ul{
     margin-left: 0px;
     margin-right: 0px;
 }
+.caption{
+    font-style: italic;
+    padding-bottom: 2em;
+    margin-left: .2em;
+}
 li{
     display: flex;
     text-decoration: none;
@@ -94,7 +99,7 @@ li{
     margin-top: 3em;
     color: whitesmoke;
     display: flex;
-   
+
     
 }
 .top{
@@ -123,6 +128,7 @@ h2{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .1fr .1fr .1fr;
     flex-shrink: 1 1 1;
+    
    
     }
     .img{
@@ -231,6 +237,7 @@ h2{
         grid-template-columns: 1fr;
         grid-template-rows: .2fr;
         flex-shrink: 1;
+       
     }
 
 }   
