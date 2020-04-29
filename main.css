@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-   
+    -webkit-appearance: none;
     font-family: sans-serif;  
     scroll-behavior: smooth;
 }
+
 body{
     background: black;
  
@@ -132,7 +133,7 @@ h2{
     
    
     }
-    .img{
+    img{
         height: auto;
         max-width: 300px;
     }
@@ -144,16 +145,16 @@ h2{
 }
 @media screen and (min-width: 1200px){
     .ninebynine{
-        margin-left: 6.7em;
+        margin-left: 0em;
     color: #FFFFFF;
     display: grid;	
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .1fr .1fr .1fr;
     flex-shrink: 1 1 1;
         }
-        .img{
+  img{
             height: auto;
-            max-width: 500px;
+            max-width: 400px;
         }
 
 }
