@@ -1,6 +1,6 @@
 
 const heroSection = document.getElementById("banner");
-const heroTitle = document.querySelector(".hero__title");
+// const heroTitle = document.querySelector(".hero__title");
 
 let imageCounter = 1;
 const changeHeroImage = function () {
