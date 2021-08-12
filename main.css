@@ -33,23 +33,23 @@ body{
     display: flex;
     width: 100%;
     max-width: 2000px;   
-    margin-top: 2em;
+    margin-top: 0;
     width: 100%;
     max-width: 2000px;
-    height: 540px;
+    height: 720px;
     padding: 20px 0;
     flex-shrink: inherit;
 }
 .banner--image1{
-background-image: url("https://4.bp.blogspot.com/-hQVNCXiwFuA/XJ0cQki-wcI/AAAAAAAAJfw/DFt8bHSm8Vs_iAvNwK-f4tg8fiWeGoPCQCKgBGAs/s1600/IMG_20190320_151927.jpg");
+background-image: url("https://1.bp.blogspot.com/-SGEs1uhsbOU/YPWsacvHSjI/AAAAAAAAVjc/bLv0iHZ4k60H6P_jjZ-DgE4SxZbb9Pg9gCLcBGAsYHQ/s2048/20210713_202227.jpg");
 transition: background-image 1s ease-in-out;
 }
 .banner--image2{
-background-image: url("https://1.bp.blogspot.com/-5Mf3HHql3tw/XZ-pm-ASUjI/AAAAAAAAKus/sDOTWDqGgNY-2XqhFfKyd6o5ctenxy79gCLcBGAsYHQ/s1600/20191006_103135.jpg");
+background-image: url("https://1.bp.blogspot.com/-QD4PUvt_xP8/X0Uio29F2OI/AAAAAAAAQFo/WrOJVcIBVjEaPNcnq5gog_iGOUVXPVQ1gCPcBGAsYHg/s4032/20200811_112158.jpg");
 transition: background-image 1s ease-in-out;
 }
 .banner--image3{
-background-image: url("https://1.bp.blogspot.com/-OD7zTrTQLX4/Xgtcs845feI/AAAAAAAANNM/t3ZzqTNsXvMRwSBIZQfKduMEZEGmywergCEwYBhgL/s1600/20191112_133842.jpg");
+background-image: url("https://1.bp.blogspot.com/-IWNj6GuP4P8/YPWlKQ6nf3I/AAAAAAAAVfs/MCdRv8451_gSLo0fXy9wJovw3k8vkCBfACPcBGAsYHg/s4032/20210712_130151.jpg");
 transition: background-image 1s ease-in-out;
 }
 .hero__arrow {
@@ -74,8 +74,8 @@ transition: background-image 1s ease-in-out;
 
 }
 ul{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .caption{
     font-style: italic;
@@ -87,13 +87,19 @@ li{
     text-decoration: none;
     background: rgb(39, 38, 38);
     list-style: none;
-    text-justify: flex-end;
+}
+    
+.top{
+    background: rgb(14, 13, 13, 0.8);
+    width: 700px;
+
 }
 .main p{
     
-    width: 300px;
+    width: 700px;
 }
 .container{
+    width: 800px;
     display: flex;
     justify-content: center;
 }
@@ -118,9 +124,9 @@ h2{
 .main{
     background: rgb(14, 13, 13, 0.8);
     flex-direction: column;
-    margin: 3em;
+    margin: 2em;
     justify-content: space-evenly;
-    width: 500px;
+    /* width: 500px; */
     text-justify: center;
 }
 .ninebynine{
