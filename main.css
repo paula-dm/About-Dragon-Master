@@ -251,12 +251,15 @@ h2{
         grid-template-rows: .2fr;
         flex-shrink: 1;
     }
+    li{
+        font-size: .8em;
+    }
 
 }   
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 361px){
     #ban1{
-        max-width: 350px;
+        max-width: 361px;
         margin-left: 1em;;
      
     }
@@ -275,6 +278,9 @@ h2{
         grid-template-rows: .2fr;
         flex-shrink: 1;
        
+    }
+    li{
+        font-size: .7em;
     }
 
 }   
