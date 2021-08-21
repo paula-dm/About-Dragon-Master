@@ -25,7 +25,9 @@ body{
         margin-left: 0px;
         color: white;
         }
-   
+   a{
+       color: white;
+   }
 .banner{
     background-size: cover;
     background-position: top center;
